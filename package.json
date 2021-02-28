@@ -5,5 +5,15 @@
   "main": "dist/index.js",
   "author": "Denis Gutarin",
   "license": "MIT",
-  "private": false
+  "repository": {
+    "url": "https://github.com/denisgutarin/entity-constructor"
+  },
+  "private": false,
+  "scripts": {
+    "build": "tsc -b",
+    "test": "tsc -b && jest ./test.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }

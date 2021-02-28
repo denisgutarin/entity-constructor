@@ -1,7 +1,7 @@
 {
   "name": "entity-constructor",
   "version": "0.0.1",
-  "description": "Utils for immutable entity creation",
+  "description": "Utility for immutable entity creation",
   "main": "dist/index.js",
   "author": "Denis Gutarin",
   "license": "MIT",
@@ -9,6 +9,11 @@
     "url": "https://github.com/denisgutarin/entity-constructor"
   },
   "private": false,
+  "files": [
+    "dist",
+    "package.json",
+    "test.js"
+  ],
   "scripts": {
     "build": "tsc -b",
     "test": "tsc -b && jest ./test.js"
